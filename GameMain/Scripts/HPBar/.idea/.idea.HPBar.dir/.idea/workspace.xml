@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="827417f5-964e-465c-9140-72ca7513af92" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/box.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/box.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/button-filled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/button-filled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/button-outline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/button-outline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/checked.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/checked.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/circle-filled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/circle-filled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/circle-outline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/circle-outline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/dialog-background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/dialog-background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/dialog-title-background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/dialog-title-background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/info.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/info.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/line.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/line.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/progress-conner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/progress-conner.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/progressbar-background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/progressbar-background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/progressbar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/progressbar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/round-button-filled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/round-button-filled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Common/round-button-outline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Common/round-button-outline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Icons/music.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Icons/music.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Icons/sound.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Icons/sound.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Icons/world.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Icons/world.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UI/UISprites/Logos/unity-logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../UI/UISprites/Logos/unity-logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/NetworkManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/NetworkManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/UnityAdsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../BuiltinData/BuiltinDataComponent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HPBarItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Procedure/ProcedureMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Procedure/ProcedureUpdateResources.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2dmQQcvwPsTaqnKMoxKSXeIlZ1j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\hejincan\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\hejincan\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\hejincan\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="827417f5-964e-465c-9140-72ca7513af92" name="更改" comment="" />
+      <created>1710610759309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710610759309</updated>
+      <workItem from="1710610762124" duration="561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
