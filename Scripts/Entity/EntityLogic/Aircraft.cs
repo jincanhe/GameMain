@@ -7,6 +7,8 @@
 
 using GameFramework;
 using System.Collections.Generic;
+using GameFramework.DataTable;
+using GameMain.Scripts.Buffs;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -28,6 +30,7 @@ namespace StarForce
 
         [SerializeField]
         protected List<Armor> m_Armors = new List<Armor>();
+
 
 #if UNITY_2017_3_OR_NEWER
         protected override void OnShow(object userData)
@@ -59,6 +62,14 @@ namespace StarForce
             {
                 GameEntry.Entity.ShowArmor(armorDatas[i]);
             }
+
+            //todo 先与敌人碰撞就加buff
+            IDataTable<DRBuff> buff = GameEntry.DataTable.GetDataTable<DRBuff>();
+            DRBuff drBuff = buff.GetDataRow(1001);
+
+            this.AddBuff(ReferencePool.Acquire<BuffBase>().Fill(null, drBuff.Id, BuffBase.BuffType.Buff, (int)drBuff.Speed, false));
+            //
+
         }
 
 #if UNITY_2017_3_OR_NEWER
@@ -139,5 +150,18 @@ namespace StarForce
         {
             return new ImpactData(m_AircraftData.Camp, m_AircraftData.HP, 0, m_AircraftData.Defense);
         }
+
+        protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
+        {
+            base.OnUpdate(elapseSeconds, realElapseSeconds);
+        }
+
+        public void UpdateInfos()
+        {
+
+        }
+
+
+
     }
 }

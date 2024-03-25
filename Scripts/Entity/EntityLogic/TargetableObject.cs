@@ -5,6 +5,8 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
+using System.Collections.Generic;
+using GameMain.Scripts.Buffs;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -17,6 +19,9 @@ namespace StarForce
     {
         [SerializeField]
         private TargetableObjectData m_TargetableObjectData = null;
+
+        public List<BuffBase> m_Buffs = new List<BuffBase>();
+        public List<ModifierBuff> m_ModifierBuffs = new List<ModifierBuff>();
 
         public bool IsDead
         {
@@ -90,6 +95,28 @@ namespace StarForce
             }
 
             AIUtility.PerformCollision(this, entity);
+        }
+
+        public virtual void AddBuff(BuffBase buffBase)
+        {
+            m_Buffs.Add(buffBase);
+            BuffAwake(buffBase);
+        }
+
+        private void BuffAwake(BuffBase buffBase)
+        {
+            m_TargetableObjectData.HP += 10;
+
+        }
+
+        public virtual void ClearBuff()
+        {
+
+        }
+
+        public virtual void ClearAllBuff()
+        {
+
         }
     }
 }

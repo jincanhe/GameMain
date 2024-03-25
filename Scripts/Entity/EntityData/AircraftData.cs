@@ -8,6 +8,8 @@
 using GameFramework.DataTable;
 using System;
 using System.Collections.Generic;
+using GameFramework;
+using GameMain.Scripts.Buffs;
 using UnityEngine;
 
 namespace StarForce
@@ -39,6 +41,7 @@ namespace StarForce
         public AircraftData(int entityId, int typeId, CampType camp)
             : base(entityId, typeId, camp)
         {
+
             IDataTable<DRAircraft> dtAircraft = GameEntry.DataTable.GetDataTable<DRAircraft>();
             DRAircraft drAircraft = dtAircraft.GetDataRow(TypeId);
             if (drAircraft == null)

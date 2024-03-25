@@ -5,7 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 // 此文件由工具自动生成，请勿直接修改。
-// 生成时间：2024-03-25 11:01:59.455
+// 生成时间：2024-03-25 11:01:59.480
 //------------------------------------------------------------
 
 using GameFramework;
@@ -19,14 +19,14 @@ using UnityGameFramework.Runtime;
 namespace StarForce
 {
     /// <summary>
-    /// 音乐配置表。
+    /// 武器表。
     /// </summary>
-    public class DRMusic : DataRowBase
+    public class DRBuff : DataRowBase
     {
         private int m_Id = 0;
 
         /// <summary>
-        /// 获取音乐编号。
+        /// 获取武器编号。
         /// </summary>
         public override int Id
         {
@@ -37,9 +37,45 @@ namespace StarForce
         }
 
         /// <summary>
-        /// 获取资源名称。
+        /// 获取攻击力。
         /// </summary>
-        public string AssetName
+        public int Attack
+        {
+            get;
+            private set;
+        }
+
+        /// <summary>
+        /// 获取生命。
+        /// </summary>
+        public int Hp
+        {
+            get;
+            private set;
+        }
+
+        /// <summary>
+        /// 获取防御。
+        /// </summary>
+        public int Def
+        {
+            get;
+            private set;
+        }
+
+        /// <summary>
+        /// 获取速度。
+        /// </summary>
+        public float Speed
+        {
+            get;
+            private set;
+        }
+
+        /// <summary>
+        /// 获取子弹声音编号。
+        /// </summary>
+        public int BulletSoundId
         {
             get;
             private set;
@@ -57,7 +93,11 @@ namespace StarForce
             index++;
             m_Id = int.Parse(columnStrings[index++]);
             index++;
-            AssetName = columnStrings[index++];
+            Attack = int.Parse(columnStrings[index++]);
+            Hp = int.Parse(columnStrings[index++]);
+            Def = int.Parse(columnStrings[index++]);
+            Speed = float.Parse(columnStrings[index++]);
+            BulletSoundId = int.Parse(columnStrings[index++]);
 
             GeneratePropertyArray();
             return true;
@@ -70,7 +110,11 @@ namespace StarForce
                 using (BinaryReader binaryReader = new BinaryReader(memoryStream, Encoding.UTF8))
                 {
                     m_Id = binaryReader.Read7BitEncodedInt32();
-                    AssetName = binaryReader.ReadString();
+                    Attack = binaryReader.Read7BitEncodedInt32();
+                    Hp = binaryReader.Read7BitEncodedInt32();
+                    Def = binaryReader.Read7BitEncodedInt32();
+                    Speed = binaryReader.ReadSingle();
+                    BulletSoundId = binaryReader.Read7BitEncodedInt32();
                 }
             }
 

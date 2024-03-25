@@ -14,6 +14,7 @@ namespace StarForce
 {
     public class HPBarItem : MonoBehaviour
     {
+
         private const float AnimationSeconds = 0.3f;
         private const float KeepSeconds = 0.4f;
         private const float FadeOutSeconds = 0.3f;

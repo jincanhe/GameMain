@@ -123,5 +123,6 @@ namespace StarForce
         {
             base.OnUpdate(elapseSeconds, realElapseSeconds);
         }
+
     }
 }
